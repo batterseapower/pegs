@@ -1,0 +1,8 @@
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Generated files
+dist/
+*.hi
+*.o

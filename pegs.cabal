@@ -1,0 +1,26 @@
+Name:           pegs
+Version:        0.1
+Cabal-Version:  >= 1.2
+Category:       Algorithms
+Synopsis:       PEGs for equality saturation
+Description:    An implementation of Program Expression Graphs from the paper "Equality
+                Saturation: a new Approach to Optimization" by Ross Tate et al.
+License:        BSD3
+License-File:   LICENSE
+Author:         Max Bolingbroke
+Maintainer:     batterseapower@hotmail.com
+Build-Type:     Simple
+
+Executable pegs
+        Main-Is:                Main.hs
+        Build-Depends:          base <= 4, containers >= 0.2, containers < 0.3
+        
+        Extensions:             MultiParamTypeClasses
+                                FunctionalDependencies
+                                TypeSynonymInstances
+                                FlexibleInstances
+                                FlexibleContexts
+                                ExistentialQuantification
+                                ScopedTypeVariables
+                                GADTs
+        Ghc-Options:            -Wall
