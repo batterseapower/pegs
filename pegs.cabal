@@ -12,7 +12,7 @@ Maintainer:     batterseapower@hotmail.com
 Build-Type:     Simple
 
 Executable pegs
-        Main-Is:                Main2.hs
+        Main-Is:                Main3.hs
         Build-Depends:          base <= 4, containers >= 0.2, containers < 0.3
         
         Extensions:             MultiParamTypeClasses
