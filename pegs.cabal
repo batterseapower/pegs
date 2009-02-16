@@ -12,7 +12,7 @@ Maintainer:     batterseapower@hotmail.com
 Build-Type:     Simple
 
 Executable pegs
-        Main-Is:                Main.hs
+        Main-Is:                Main2.hs
         Build-Depends:          base <= 4, containers >= 0.2, containers < 0.3
         
         Extensions:             MultiParamTypeClasses
@@ -22,5 +22,6 @@ Executable pegs
                                 FlexibleContexts
                                 ExistentialQuantification
                                 ScopedTypeVariables
+                                PatternGuards
                                 GADTs
         Ghc-Options:            -Wall
